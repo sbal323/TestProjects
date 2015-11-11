@@ -1,0 +1,6 @@
+P:\Misc\TestProjects\TestProjects\ConsoleApplicationCS\bin\Debug\ConsoleApplicationCS.exe.config
+P:\Misc\TestProjects\TestProjects\ConsoleApplicationCS\bin\Debug\ConsoleApplicationCS.exe
+P:\Misc\TestProjects\TestProjects\ConsoleApplicationCS\bin\Debug\ConsoleApplicationCS.pdb
+P:\Misc\TestProjects\TestProjects\ConsoleApplicationCS\obj\Debug\ConsoleApplicationCS.csprojResolveAssemblyReference.cache
+P:\Misc\TestProjects\TestProjects\ConsoleApplicationCS\obj\Debug\ConsoleApplicationCS.exe
+P:\Misc\TestProjects\TestProjects\ConsoleApplicationCS\obj\Debug\ConsoleApplicationCS.pdb

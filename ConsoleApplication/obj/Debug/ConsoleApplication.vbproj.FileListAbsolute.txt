@@ -1,0 +1,9 @@
+P:\Misc\TestProjects\TestProjects\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+P:\Misc\TestProjects\TestProjects\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+P:\Misc\TestProjects\TestProjects\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+P:\Misc\TestProjects\TestProjects\ConsoleApplication\bin\Debug\ConsoleApplication.xml
+P:\Misc\TestProjects\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.Resources.resources
+P:\Misc\TestProjects\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.vbproj.GenerateResource.Cache
+P:\Misc\TestProjects\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+P:\Misc\TestProjects\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.xml
+P:\Misc\TestProjects\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
