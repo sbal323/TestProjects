@@ -13,9 +13,15 @@ namespace ConsoleApplicationCS
         public void TestLinq()
         {
             PrepareData();
-            TestGroupBy();
+            Test();
             Console.WriteLine("Press any key...");
             Console.ReadKey();
+        }
+        private void Test()
+        {
+            //TestJoin();
+            TestGroupJoin();
+            //TestGroupBy();
         }
         private void TestJoin()
         {
