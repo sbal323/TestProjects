@@ -23,11 +23,13 @@ namespace ConsoleApplicationCS
             //TestJoin();
             //TestGroupJoin();
             //TestGroupBy();
-            TestZip();
+            //TestZip();
+            TestToLookup();
         }
         private void TestJoin()
         {
             empls.Join(empls, e => e.ManagerID, m => m.ID, (e, m) => new { Title = e.Title, Manager = m.Title }).ToList().ForEach(x=> Console.WriteLine("Employee: " + x.Title + " Manager: " + x.Manager));
+            //Dictionary<int, string> dict = empls.ToDictionary(x => x.ID, x => x.Title);
         }
         private void TestGroupJoin()
         {
@@ -41,14 +43,34 @@ namespace ConsoleApplicationCS
         {
             mngrs.Zip(mngrNames, (x, y) => x + " " + y).ToList().ForEach(x=> Console.WriteLine(x));
         }
-
+        private void TestToLookup()
+        {
+            ILookup<int, Types.Employee> ageLookup = empls.ToLookup(x => x.Age);
+            ILookup<string, Types.Employee> depLookup = empls.ToLookup(x => x.DepartmentTitle);
+            foreach(var grp in ageLookup)
+            {
+                Console.WriteLine("Age " + grp.Key + " (" + grp.Count() + ")");
+                foreach(Types.Employee empl in grp)
+                {
+                    Console.WriteLine("\t" + empl.Title);
+                }
+            }
+            foreach (var grp in depLookup)
+            {
+                Console.WriteLine("Department " + grp.Key + " (" + grp.Count() + ")");
+                foreach (Types.Employee empl in grp)
+                {
+                    Console.WriteLine("\t" + empl.Title);
+                }
+            }
+        }
         #region Prepare data
         private void PrepareData()
         {
-            empls.Add(new Types.Employee {ID = 1, Age = 36, Title = "Sergey Balog", DepartmentID = 1, ManagerID = 2 });
-            empls.Add(new Types.Employee { ID = 2, Age = 37, Title = "Sergey Trurin", DepartmentID = 1});
-            empls.Add(new Types.Employee { ID = 3, Age = 25, Title = "Olga Loseva", DepartmentID = 2, ManagerID = 1 });
-            empls.Add(new Types.Employee { ID = 4, Age = 27, Title = "Rosina Chushkina", DepartmentID = 3, ManagerID = 1 });
+            empls.Add(new Types.Employee {ID = 1, Age = 36, Title = "Sergey Balog", DepartmentID = 1, DepartmentTitle = "Executive", ManagerID = 2 });
+            empls.Add(new Types.Employee { ID = 2, Age = 37, Title = "Sergey Trurin", DepartmentTitle = "Executive", DepartmentID = 1});
+            empls.Add(new Types.Employee { ID = 3, Age = 25, Title = "Olga Loseva", DepartmentID = 2, DepartmentTitle = "Support", ManagerID = 1 });
+            empls.Add(new Types.Employee { ID = 4, Age = 25, Title = "Rosina Chushkina", DepartmentID = 3, DepartmentTitle = "QA", ManagerID = 1 });
         }
         #endregion
 

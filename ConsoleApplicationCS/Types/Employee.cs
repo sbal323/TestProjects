@@ -13,6 +13,7 @@ namespace ConsoleApplicationCS.Types
         public int ID { get; set; }
         public int ManagerID { get; set; }
         public int DepartmentID { get; set; }
+        public string DepartmentTitle { get; set; }
     }
     class EmployeesGroupResult
     {
