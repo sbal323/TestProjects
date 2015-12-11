@@ -4,3 +4,9 @@ P:\Misc\TestProjects\TestProjects\ConsoleApplicationCS\bin\Debug\ConsoleApplicat
 P:\Misc\TestProjects\TestProjects\ConsoleApplicationCS\obj\Debug\ConsoleApplicationCS.csprojResolveAssemblyReference.cache
 P:\Misc\TestProjects\TestProjects\ConsoleApplicationCS\obj\Debug\ConsoleApplicationCS.exe
 P:\Misc\TestProjects\TestProjects\ConsoleApplicationCS\obj\Debug\ConsoleApplicationCS.pdb
+P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplicationCS\bin\Debug\ConsoleApplicationCS.exe.config
+P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplicationCS\obj\Debug\ConsoleApplicationCS.exe
+P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplicationCS\obj\Debug\ConsoleApplicationCS.pdb
+P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplicationCS\bin\Debug\ConsoleApplicationCS.exe
+P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplicationCS\bin\Debug\ConsoleApplicationCS.pdb
+P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplicationCS\obj\Debug\ConsoleApplicationCS.csprojResolveAssemblyReference.cache

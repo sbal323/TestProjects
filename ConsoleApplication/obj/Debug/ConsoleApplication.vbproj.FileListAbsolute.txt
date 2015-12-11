@@ -7,3 +7,7 @@ P:\Misc\TestProjects\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplicatio
 P:\Misc\TestProjects\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.exe
 P:\Misc\TestProjects\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.xml
 P:\Misc\TestProjects\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.xml
+P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.pdb

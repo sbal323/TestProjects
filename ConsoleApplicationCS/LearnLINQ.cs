@@ -9,7 +9,8 @@ namespace ConsoleApplicationCS
     class LearnLINQ
     {
         List<Types.Employee> empls = new List<Types.Employee>();
-        List<int> mngrs = new List<int> { 1, 2};
+        List<int> mngrs = new List<int> { 1, 2 };
+        List<string> mngrNames = new List<string> { "Sergey Turin", "Sergey Balog" };
         public void TestLinq()
         {
             PrepareData();
@@ -20,8 +21,9 @@ namespace ConsoleApplicationCS
         private void Test()
         {
             //TestJoin();
-            TestGroupJoin();
+            //TestGroupJoin();
             //TestGroupBy();
+            TestZip();
         }
         private void TestJoin()
         {
@@ -34,6 +36,10 @@ namespace ConsoleApplicationCS
         private void TestGroupBy()
         {
             empls.GroupBy(e => new { e.DepartmentID, e.Age }).Select(grp => new { Department = grp.Key, Employees = grp.Count(), AvgAge = grp.Average(x => x.Age) }).ToList().ForEach(x => Console.WriteLine(x.Department + " has " + x.Employees + " employees with average age = " + x.AvgAge));
+        }
+        private void TestZip()
+        {
+            mngrs.Zip(mngrNames, (x, y) => x + " " + y).ToList().ForEach(x=> Console.WriteLine(x));
         }
 
         #region Prepare data
