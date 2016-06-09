@@ -15,7 +15,6 @@ namespace ConsoleApplicationCS
         {
             PrepareData();
             Test();
-            Console.WriteLine("Welcome to demo");
             Console.WriteLine("Press any key...");
             Console.ReadKey();
         }
