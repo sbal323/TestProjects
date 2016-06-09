@@ -11,7 +11,3 @@ P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplication\bin\Debug\Consol
 P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.exe
 P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.xml
 P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
-C:\Users\bal\Source\Repos\TestProjects\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
-C:\Users\bal\Source\Repos\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.exe
-C:\Users\bal\Source\Repos\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.xml
-C:\Users\bal\Source\Repos\TestProjects\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
