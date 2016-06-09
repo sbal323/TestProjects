@@ -13,6 +13,3 @@ P:\Documents\GitHubVisualStudio\TestProjects\ConsoleApplicationCS\obj\Debug\Cons
 C:\Users\bal\Source\Repos\TestProjects\ConsoleApplicationCS\bin\Debug\ConsoleApplicationCS.exe.config
 C:\Users\bal\Source\Repos\TestProjects\ConsoleApplicationCS\obj\Debug\ConsoleApplicationCS.exe
 C:\Users\bal\Source\Repos\TestProjects\ConsoleApplicationCS\obj\Debug\ConsoleApplicationCS.pdb
-C:\Users\bal\Source\Repos\TestProjects\ConsoleApplicationCS\bin\Debug\ConsoleApplicationCS.exe
-C:\Users\bal\Source\Repos\TestProjects\ConsoleApplicationCS\bin\Debug\ConsoleApplicationCS.pdb
-C:\Users\bal\Source\Repos\TestProjects\ConsoleApplicationCS\obj\Debug\ConsoleApplicationCS.csprojResolveAssemblyReference.cache
